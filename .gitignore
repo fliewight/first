@@ -1,0 +1,12 @@
+# Executable windows
+*.exe
+
+*.deb
+*.app
+*.dmg
+
+# Ignorer le dossier logs
+logs/
+
+# Ne pas ignorer un fichier (** s'il y a plusieurs dossiers)
+!logs/**/*.pseudo
